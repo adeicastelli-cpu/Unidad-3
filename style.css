@@ -1,0 +1,62 @@
+/* html */
+html {
+  font-family: "Playwrite MX Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Selector universal */
+* {
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Tag Selector */
+h1 {
+  color: hotpink;
+  text-align: center;
+}
+p {
+  color: rgb(219, 156, 201);
+}
+
+/* Background color for the entire page */
+body {
+  background-color: rgb(241, 227, 237);
+}
+/* class selector */
+.texto {
+  background-color: rgb(241, 227, 237);
+  
+  font-size: 18px;
+}
+
+/* id selector */
+#test-id {
+  background-color: rgb(236, 212, 228);
+  padding: 20px;
+  border-radius: 15px;
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+
+  font-weight: bold;
+}
+h1 {
+  font-family: scribble;
+}
+:hover {
+  color: rgb(255, 255, 255);
+}
+/* class nav */
+.nav {
+  background-color: rgb(236, 212, 228);
+  padding: 20px;
+  border-radius: 15px;
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
